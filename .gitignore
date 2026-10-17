@@ -1,0 +1,17 @@
+# Rust build artifacts
+/target
+
+# Compiled executables
+*.exe
+*.exe.old
+
+# Runtime map caches and dynamic station state
+tile_cache/
+air_coverage.json
+ais_coverage.json
+aprs_stations.json
+
+# Scratch & log files
+*.log
+err.txt
+*.tmp

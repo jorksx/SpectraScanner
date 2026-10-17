@@ -1,0 +1,437 @@
+{
+  "selected_device": "Airspy R2",
+  "center_freq_hz": 131250000,
+  "sample_rate": 10000000,
+  "rf_gain": 21,
+  "scan_start_hz": 127000000,
+  "scan_end_hz": 137000000,
+  "scan_step_hz": 12500,
+  "squelch_snr_db": 7.0166664,
+  "vad_enabled": true,
+  "vad_threshold": 0.7675926,
+  "hangover_ms": 3016,
+  "max_vfos": 1,
+  "active_range": "AIR",
+  "ranges": [
+    {
+      "name": "AIR",
+      "center_freq_hz": 122350000,
+      "scan_start_hz": 118100000,
+      "scan_end_hz": 127000000,
+      "scan_step_hz": 25000,
+      "mode": "AM",
+      "enabled": true
+    },
+    {
+      "name": "HAM 2m",
+      "center_freq_hz": 145000000,
+      "scan_start_hz": 144000000,
+      "scan_end_hz": 146000000,
+      "scan_step_hz": 12500,
+      "mode": "NFM",
+      "enabled": false
+    },
+    {
+      "name": "HAM 70cm",
+      "center_freq_hz": 434000000,
+      "scan_start_hz": 432000000,
+      "scan_end_hz": 438000000,
+      "scan_step_hz": 12500,
+      "mode": "NFM",
+      "enabled": false
+    },
+    {
+      "name": "PMR446",
+      "center_freq_hz": 434435000,
+      "scan_start_hz": 430820000,
+      "scan_end_hz": 438050000,
+      "scan_step_hz": 12500,
+      "mode": "NFM",
+      "enabled": false
+    },
+    {
+      "name": "Elinkeino VHF (154M)",
+      "center_freq_hz": 154700000,
+      "scan_start_hz": 154500000,
+      "scan_end_hz": 154900000,
+      "scan_step_hz": 12500,
+      "mode": "NFM",
+      "enabled": false
+    },
+    {
+      "name": "Elinkeino VHF (147-171M)",
+      "center_freq_hz": 151250000,
+      "scan_start_hz": 147000000,
+      "scan_end_hz": 172400000,
+      "scan_step_hz": 25000,
+      "mode": "NFM",
+      "enabled": false
+    },
+    {
+      "name": "Elinkeino UHF (442-459M)",
+      "center_freq_hz": 450000000,
+      "scan_start_hz": 442800000,
+      "scan_end_hz": 459000000,
+      "scan_step_hz": 12500,
+      "mode": "NFM",
+      "enabled": false
+    },
+    {
+      "name": "RHA68 Harraste/Elinkeino",
+      "center_freq_hz": 70000000,
+      "scan_start_hz": 68000000,
+      "scan_end_hz": 71500000,
+      "scan_step_hz": 25000,
+      "mode": "NFM",
+      "enabled": false
+    },
+    {
+      "name": "AIR 2",
+      "center_freq_hz": 131250000,
+      "scan_start_hz": 127000000,
+      "scan_end_hz": 137000000,
+      "scan_step_hz": 12500,
+      "mode": "AM",
+      "enabled": false
+    },
+    {
+      "name": "Broadcast FM (87.5-108M)",
+      "center_freq_hz": 100000000,
+      "scan_start_hz": 87500000,
+      "scan_end_hz": 108000000,
+      "scan_step_hz": 100000,
+      "mode": "BCFM",
+      "enabled": false
+    }
+  ],
+  "bookmarks": {
+    "133258333": {
+      "freq_hz": 133258333,
+      "name": "AIR",
+      "mode": "AM",
+      "bandwidth_hz": 12500
+    },
+    "166375000": {
+      "freq_hz": 166375000,
+      "name": "Joku lähifirma",
+      "mode": "NFM",
+      "bandwidth_hz": 12500
+    },
+    "126900000": {
+      "freq_hz": 126900000,
+      "name": "AIR",
+      "mode": "AM",
+      "bandwidth_hz": 12500
+    },
+    "119800000": {
+      "freq_hz": 119800000,
+      "name": "AIR",
+      "mode": "AM",
+      "bandwidth_hz": 12500
+    },
+    "120950000": {
+      "freq_hz": 120950000,
+      "name": "AIR SUOMI",
+      "mode": "AM",
+      "bandwidth_hz": 12500
+    },
+    "125225000": {
+      "freq_hz": 125225000,
+      "name": "AIR",
+      "mode": "AM",
+      "bandwidth_hz": 12500
+    },
+    "156800000": {
+      "freq_hz": 156800000,
+      "name": "Turku RADIO",
+      "mode": "NFM",
+      "bandwidth_hz": 12500
+    },
+    "124425000": {
+      "freq_hz": 124425000,
+      "name": "AIR",
+      "mode": "AM",
+      "bandwidth_hz": 12500
+    },
+    "122125000": {
+      "freq_hz": 122125000,
+      "name": "AIR",
+      "mode": "AM",
+      "bandwidth_hz": 12500
+    },
+    "166900000": {
+      "freq_hz": 166900000,
+      "name": "Viljavarasto?",
+      "mode": "NFM",
+      "bandwidth_hz": 12500
+    },
+    "120100000": {
+      "freq_hz": 120100000,
+      "name": "AIR",
+      "mode": "AM",
+      "bandwidth_hz": 12500
+    },
+    "127100000": {
+      "freq_hz": 127100000,
+      "name": "AIR",
+      "mode": "AM",
+      "bandwidth_hz": 12500
+    },
+    "136075000": {
+      "freq_hz": 136075000,
+      "name": "Pori ATIS",
+      "mode": "AM",
+      "bandwidth_hz": 12500
+    },
+    "144800000": {
+      "freq_hz": 144800000,
+      "name": "APRS",
+      "mode": "NFM",
+      "bandwidth_hz": 12500
+    },
+    "166825000": {
+      "freq_hz": 166825000,
+      "name": "Joku Lähifirma 2",
+      "mode": "NFM",
+      "bandwidth_hz": 12500
+    },
+    "166425000": {
+      "freq_hz": 166425000,
+      "name": "Viljavarasto?",
+      "mode": "NFM",
+      "bandwidth_hz": 12500
+    },
+    "119375000": {
+      "freq_hz": 119375000,
+      "name": "AIR",
+      "mode": "AM",
+      "bandwidth_hz": 12500
+    },
+    "134325000": {
+      "freq_hz": 134325000,
+      "name": "AIR",
+      "mode": "AM",
+      "bandwidth_hz": 12500
+    },
+    "458900000": {
+      "freq_hz": 458900000,
+      "name": "Joku Firma",
+      "mode": "NFM",
+      "bandwidth_hz": 12500
+    },
+    "160650000": {
+      "freq_hz": 160650000,
+      "name": "Turku radio ch1",
+      "mode": "NFM",
+      "bandwidth_hz": 12500
+    },
+    "162150000": {
+      "freq_hz": 162150000,
+      "name": "Joku lähifirma",
+      "mode": "NFM",
+      "bandwidth_hz": 12500
+    },
+    "454650000": {
+      "freq_hz": 454650000,
+      "name": "Kokemäki rpt",
+      "mode": "NFM",
+      "bandwidth_hz": 12500
+    },
+    "119900000": {
+      "freq_hz": 119900000,
+      "name": "AIR",
+      "mode": "AM",
+      "bandwidth_hz": 12500
+    },
+    "121300000": {
+      "freq_hz": 121300000,
+      "name": "AIR",
+      "mode": "AM",
+      "bandwidth_hz": 12500
+    },
+    "161550000": {
+      "freq_hz": 161550000,
+      "name": "Turku Radio ch19",
+      "mode": "NFM",
+      "bandwidth_hz": 12500
+    },
+    "119100000": {
+      "freq_hz": 119100000,
+      "name": "Helsinki radar",
+      "mode": "AM",
+      "bandwidth_hz": 12500
+    },
+    "132700000": {
+      "freq_hz": 132700000,
+      "name": "AIR",
+      "mode": "AM",
+      "bandwidth_hz": 12500
+    },
+    "434475000": {
+      "freq_hz": 434475000,
+      "name": "openspot",
+      "mode": "NFM",
+      "bandwidth_hz": 12500
+    },
+    "129850000": {
+      "freq_hz": 129850000,
+      "name": "AIR",
+      "mode": "AM",
+      "bandwidth_hz": 12500
+    },
+    "145750000": {
+      "freq_hz": 145750000,
+      "name": "OH3RNE",
+      "mode": "NFM",
+      "bandwidth_hz": 12500
+    }
+  },
+  "blacklist": [
+    119375000,
+    119983333,
+    119991667,
+    120000000,
+    120008333,
+    120016667,
+    123733333,
+    123741667,
+    123750000,
+    123758333,
+    124983333,
+    124991667,
+    125000000,
+    125008333,
+    125016667,
+    125025000,
+    125250000,
+    125900000,
+    126025000,
+    126491667,
+    126500000,
+    126508333,
+    127087500,
+    128387500,
+    128400000,
+    128587500,
+    128600000,
+    128612500,
+    128875000,
+    128887500,
+    129837500,
+    129850000,
+    129866667,
+    129987500,
+    130000000,
+    130012500,
+    131712500,
+    131991667,
+    132000000,
+    132012500,
+    132712500,
+    132725000,
+    133187500,
+    133200000,
+    133550000,
+    133562500,
+    134562500,
+    134575000,
+    134587500,
+    134987500,
+    135000000,
+    135012500,
+    136062500,
+    136075000,
+    136087500,
+    136962500,
+    144000000,
+    144012500,
+    144125000,
+    144137500,
+    145562500,
+    145575000,
+    145587500,
+    145762500,
+    148500000,
+    149975000,
+    150000000,
+    150475000,
+    154000000,
+    154025000,
+    154050000,
+    154075000,
+    155425000,
+    155475000,
+    160000000,
+    160225000,
+    161450000,
+    164400000,
+    166825000,
+    166975000,
+    168000000,
+    168725000,
+    168750000,
+    170000000,
+    171500000,
+    400000000,
+    409987500,
+    410000000,
+    410012500,
+    419987500,
+    420000000,
+    420012500,
+    421487500,
+    421500000,
+    421512500,
+    423862500,
+    423875000,
+    424025000,
+    424037500,
+    424050000,
+    424150000,
+    424162500,
+    424175000,
+    430000000,
+    430012500,
+    432000000,
+    432012500,
+    432025000,
+    433907500,
+    433925000,
+    434175000,
+    434187500,
+    434387500,
+    434400000,
+    434412500,
+    434545000,
+    434557500,
+    440000000,
+    440012500,
+    440025000,
+    440062500,
+    441925000,
+    444000000,
+    444012500,
+    444025000,
+    444637500,
+    444650000,
+    444662500,
+    446262500,
+    446275000,
+    446462500,
+    446475000,
+    449437500,
+    449450000,
+    449462500,
+    450000000,
+    450012500,
+    450025000,
+    454637500,
+    454662500,
+    456000000,
+    456012500,
+    456025000,
+    457600000,
+    457612500
+  ],
+  "audio_device": "Speakers (3- High Definition Audio Device)"
+}

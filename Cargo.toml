@@ -1,0 +1,25 @@
+[package]
+name = "spectrascanner"
+version = "0.1.0"
+edition = "2021"
+description = "SpectraScanner - High-Speed Tactical Multi-VFO SDR Scanner"
+
+[dependencies]
+eframe = "0.30"
+egui = "0.30"
+rustfft = "6.2"
+cpal = "0.15"
+rtrb = "0.3"
+crossbeam-channel = "0.5"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+libloading = "0.8"
+parking_lot = "0.12"
+num-complex = "0.4"
+ureq = "2.10"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg"] }
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
